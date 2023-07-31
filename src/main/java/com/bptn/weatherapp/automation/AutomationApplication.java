@@ -13,7 +13,7 @@ public class AutomationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AutomationApplication.class, args);
 	}
-	
+	// created a bean of object mapper 
 	@Bean
 	ObjectMapper objectMapper() {
 		return JsonMapper.builder().build();
